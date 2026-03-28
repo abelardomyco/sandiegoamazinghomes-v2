@@ -1,0 +1,22 @@
+---
+description: Dev server always on port 3001 for SDAH; no conflict with Baja Land (3000); on crash free port, restart
+alwaysApply: true
+---
+
+# Dev Server — Port 3001 Only (No Conflict with Baja Land)
+
+When working on this project (San Diego Amazing Homes) in Cursor:
+
+1. **Dev server must run on port 3001 only.** The `package.json` dev script is `next dev -p 3001`. The Baja Land Company uses port 3000 in the same workspace—SDAH uses 3001 so both can run at once. **Never** change SDAH to 3000 or another port; keep it on 3001. The site is always http://localhost:3001.
+
+2. **If something crashes or port 3001 is in use:**
+   - **Never** start the SDAH dev server on 3000 (that is for Baja Land) or another port. Always fix port 3001 and restart there.
+   - **Check what is using port 3001:** Node (Next.js) or other processes.
+   - **Node operations:** If Node/Next is stuck or crashed, kill only the process using 3001, or run `taskkill /F /IM node.exe` on Windows to free all Node ports, then start Baja Land (3000) and SDAH (3001) again as needed.
+   - **Restart:** Once port 3001 is free, run `npm run dev` again in the SDAH project root. The dev server must end up on port 3001.
+
+3. **Ensure dev server is running.** At the start of a session or when the user asks to work on the SDAH site, run `npm run dev` in the SDAH project root if it is not already running. If it fails (e.g. EADDRINUSE), follow step 2.
+
+4. **Auto-start:** If the workspace has a task that runs `npm run dev` on folder open, the user can allow it via **Command Palette** → **Tasks: Allow Automatic Tasks in Folder**. If auto-start fails, manually start the dev server; SDAH must use port 3001 only.
+
+5. **Delegate:** For dev server troubleshooting, use the **dev-server-specialist** agent. That agent must keep SDAH on 3001 and Baja Land on 3000 with no conflicts.

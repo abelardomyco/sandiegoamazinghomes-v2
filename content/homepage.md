@@ -2,7 +2,7 @@
 
 ## Welcome
 
-Welcome to San Diego Amazing Homes! San Diego is dubbed "America's Finest City" for a reason. With year-round amazing weather, San Diego has seen tremendous growth over the last few decades. I have been here for much of it over the 40+ years I have lived here and since houses have been my passion for so long, have explored all of San Diego.
+Welcome to San Diego Amazing Homes! San Diego is dubbed "America's Finest City" for a reason—year-round weather, a thriving market, and decades of growth. I've been here for over 40 years, and with houses as my passion, I've explored every corner of the county. Whether you're looking to buy or sell, I'm here to help.
 
 ## Tagline
 

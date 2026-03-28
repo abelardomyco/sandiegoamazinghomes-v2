@@ -1,0 +1,133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "slug": "la-jolla", "name": "La Jolla" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.28, 32.83], [-117.24, 32.83], [-117.24, 32.87], [-117.28, 32.87], [-117.28, 32.83]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "del-mar", "name": "Del Mar" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.28, 32.94], [-117.24, 32.94], [-117.24, 32.98], [-117.28, 32.98], [-117.28, 32.94]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "rancho-santa-fe", "name": "Rancho Santa Fe" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.22, 33.00], [-117.16, 33.00], [-117.16, 33.05], [-117.22, 33.05], [-117.22, 33.00]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "coronado", "name": "Coronado" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.22, 32.67], [-117.14, 32.67], [-117.14, 32.71], [-117.22, 32.71], [-117.22, 32.67]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "carlsbad", "name": "Carlsbad" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.38, 33.12], [-117.30, 33.12], [-117.30, 33.20], [-117.38, 33.20], [-117.38, 33.12]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "solana-beach", "name": "Solana Beach" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.28, 32.97], [-117.24, 32.97], [-117.24, 33.01], [-117.28, 33.01], [-117.28, 32.97]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "encinitas", "name": "Encinitas" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.32, 33.02], [-117.26, 33.02], [-117.26, 33.08], [-117.32, 33.08], [-117.32, 33.02]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "pacific-beach", "name": "Pacific Beach" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.27, 32.77], [-117.22, 32.77], [-117.22, 32.81], [-117.27, 32.81], [-117.27, 32.77]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "carmel-valley", "name": "Carmel Valley" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.12, 32.91], [-117.04, 32.91], [-117.04, 32.97], [-117.12, 32.97], [-117.12, 32.91]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "little-italy", "name": "Little Italy" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.18, 32.70], [-117.14, 32.70], [-117.14, 32.74], [-117.18, 32.74], [-117.18, 32.70]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "mission-valley", "name": "Mission Valley" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.15, 32.75], [-117.08, 32.75], [-117.08, 32.80], [-117.15, 32.80], [-117.15, 32.75]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "bonita", "name": "Bonita" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.06, 32.63], [-116.98, 32.63], [-116.98, 32.68], [-117.06, 32.68], [-117.06, 32.63]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "poway", "name": "Poway" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.08, 32.93], [-116.98, 32.93], [-116.98, 32.99], [-117.08, 32.99], [-117.08, 32.93]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "rancho-del-rey", "name": "Rancho del Rey" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.00, 32.59], [-116.92, 32.59], [-116.92, 32.64], [-117.00, 32.64], [-117.00, 32.59]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "otay", "name": "Otay" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-117.00, 32.52], [-116.88, 32.52], [-116.88, 32.58], [-117.00, 32.58], [-117.00, 32.52]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "slug": "eastlake", "name": "Eastlake" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-116.98, 32.61], [-116.90, 32.61], [-116.90, 32.67], [-116.98, 32.67], [-116.98, 32.61]]]
+      }
+    }
+  ]
+}

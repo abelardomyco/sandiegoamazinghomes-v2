@@ -1,0 +1,10 @@
+# New routes only — do not modify existing pages
+
+When implementing **new routes** (new pages/URLs):
+
+- **Do:** Add new route files under `app/` (e.g. `app/new-route/page.js`), new components, and new lib/ or data files as needed.
+- **Do not:** Modify existing page files (e.g. `app/page.js`, `app/about/page.js`, existing `app/homes/page.js`, etc.). Existing pages stay as-is.
+
+If a new route must link from the UI, prefer adding a link in a shared component (e.g. header/nav) only when that component is already the designated place for nav links; otherwise document where to add the link and do not change existing pages.
+
+Summary: **Implement only the new routes; leave existing pages unchanged.**

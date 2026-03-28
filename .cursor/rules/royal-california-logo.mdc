@@ -1,0 +1,10 @@
+# Royal California Real Estate logo — only under Rosamelia's photo
+
+The image at `public/images/royal california logo.jpg` (Royal California Real Estate logo) **may only be displayed underneath Rosamelia's profile photo** in these two places:
+
+- **Homepage Contact section** (`app/page.js`) — under her photo, centered, same width as the photo.
+- **About Us page** (`app/about/page.js`) — under her photo, centered, same width as the photo.
+
+- **Not allowed:** Footer, header, newsletter, **neighborhoods** (list or detail), matchmaker, gallery, or any other page or component. Never use the logo except directly under her profile image on Home or About Us. Neighborhood hero images must never be the Royal California logo; use the fallback banner if needed.
+
+Keep the logo and profile image uniform: same max width (e.g. 200px), centered. If you need the company name in text only (e.g. "Royal California Real Estate"), use text—not the logo—elsewhere.

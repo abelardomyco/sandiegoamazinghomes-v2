@@ -1,0 +1,13 @@
+{
+  "lifestyleEvents": [
+    { "title": "North Park Farmers Market", "dateRange": "Sundays through March", "area": "North Park", "url": "" },
+    { "title": "La Jolla Art & Wine Festival", "dateRange": "March 14–15", "area": "La Jolla", "url": "" }
+  ],
+  "openHousesOrWorkshops": [
+    { "title": "First-Time Buyer Workshop", "dateRange": "March 8", "area": "Virtual", "url": "" },
+    { "title": "Open House Weekend — Coastal", "dateRange": "March 21–22", "area": "La Jolla / Encinitas", "url": "" }
+  ],
+  "landAndEscapes": [
+    { "title": "Baja Land Info Session", "dateRange": "March 28", "area": "Partner event", "url": "https://thebajalandcompany.com/" }
+  ]
+}

@@ -1,24 +1,86 @@
 {
-  "pages": [
-    { "id": "home", "file": "homepage.md", "description": "Welcome, tagline, CTAs" },
-    { "id": "about", "file": "about.md", "description": "About Us page body" }
-  ],
-  "contact": {
-    "name": "Rosamelia Lopez-Platt",
-    "title": "REALTOR®",
-    "dre": "DRE #02026714",
-    "company": "Royal California Real Estate",
-    "email": "Rosamelialp@hotmail.com",
-    "phone": "(619) 548-2832",
-    "address": "7445 Girard Ave. Suite #11, La Jolla, CA 92037"
-  },
-  "instagram": {
-    "handle": "sandiegoamazinghomes",
-    "url": "https://instagram.com/sandiegoamazinghomes"
-  },
-  "partner": {
-    "name": "The Baja Land Company",
-    "url": "https://thebajalandcompany.com/"
-  },
-  "source": "Content from sandiegoamazinghomes.com. Use only this content; no mock data."
+    "pages":  [
+                  {
+                      "id":  "home",
+                      "file":  "homepage.md",
+                      "description":  "Welcome, tagline, CTAs"
+                  },
+                  {
+                      "id":  "about",
+                      "file":  "about.md",
+                      "description":  "About Us page body"
+                  }
+              ],
+    "contact":  {
+                    "name":  "Rosamelia Lopez-Platt",
+                    "title":  "REALTOR®",
+                    "dre":  "DRE #02026714",
+                    "company":  "Royal California Real Estate",
+                    "email":  "amazinghsd@gmail.com",
+                    "phone":  "(619) 548-2832",
+                    "address":  "7445 Girard Ave. Suite #11, La Jolla, CA 92037"
+                },
+    "instagram":  {
+                      "handle":  "sandiegoamazinghomes",
+                      "url":  "https://instagram.com/sandiegoamazinghomes",
+                      "images":  [
+                                     {
+                                        "path":  "/images/placeholder-listing.svg",
+                                         "caption":  "San Diego Amazing Homes"
+                                     },
+                                     {
+                                         "path":  "/images/Screen-Shot-2025-01-03-hero.png",
+                                         "caption":  "San Diego real estate"
+                                     },
+                                     {
+                                 "path":  "/images/placeholder-listing.svg",
+                                         "caption":  "Rosamelia Lopez-Platt, REALTOR®"
+                                     },
+                                     {
+                                 "path":  "/images/placeholder-listing.svg",
+                                         "caption":  "@sandiegoamazinghomes"
+                                     }
+                                 ]
+                  },
+    "partner":  {
+                    "name":  "The Baja Land Company",
+                    "url":  "https://thebajalandcompany.com/"
+                },
+    "images":  {
+                   "banner":  {
+                                  "path":  "/images/placeholder-listing.svg",
+                                  "usage":  "Home hero"
+                              },
+                   "agentPhoto":  {
+                                      "path":  "/images/placeholder-listing.svg",
+                                      "usage":  "Contact (home)"
+                                  },
+                   "agentPhotoFull":  {
+                                          "path":  "/images/placeholder-listing.svg",
+                                          "usage":  "About page"
+                                      },
+                   "contentHero":  {
+                                       "path":  "/images/placeholder-listing.svg",
+                                       "usage":  "About Rosamelia section (home)"
+                                   }
+               },
+    "source":  "Content from sandiegoamazinghomes.com. Use only this content; no mock data.",
+    "siteGallery":  [
+                        {
+                            "path":  "/images/placeholder-listing.svg",
+                            "caption":  "San Diego Amazing Homes"
+                        },
+                        {
+                            "path":  "/images/placeholder-listing.svg",
+                            "caption":  "San Diego real estate"
+                        },
+                        {
+                            "path":  "/images/placeholder-listing.svg",
+                            "caption":  "Rosamelia Lopez-Platt"
+                        },
+                        {
+                            "path":  "/images/placeholder-listing.svg",
+                            "caption":  "Royal California Real Estate"
+                        }
+                    ]
 }

@@ -1,0 +1,180 @@
+{
+  "snapshot": {
+    "medianPrice": 950000,
+    "pricePerSqft": 585,
+    "daysOnMarket": 28,
+    "activeListings": 1200,
+    "newListingsTrend": "+4.2%",
+    "inventory": 1200,
+    "mortgageRate": 6.75,
+    "updatedAt": "2026-04-01"
+  },
+  "daysOnMarketTrend": [
+    { "month": "2025-11", "label": "Nov 25", "daysOnMarket": 32 },
+    { "month": "2025-12", "label": "Dec 25", "daysOnMarket": 30 },
+    { "month": "2026-01", "label": "Jan 26", "daysOnMarket": 29 },
+    { "month": "2026-02", "label": "Feb 26", "daysOnMarket": 29 },
+    { "month": "2026-03", "label": "Mar 26", "daysOnMarket": 28 },
+    { "month": "2026-04", "label": "Apr 26", "daysOnMarket": 28 }
+  ],
+  "salesVolumeTrend": [
+    { "month": "2025-11", "label": "Nov 25", "sales": 820 },
+    { "month": "2025-12", "label": "Dec 25", "sales": 780 },
+    { "month": "2026-01", "label": "Jan 26", "sales": 850 },
+    { "month": "2026-02", "label": "Feb 26", "sales": 910 },
+    { "month": "2026-03", "label": "Mar 26", "sales": 940 },
+    { "month": "2026-04", "label": "Apr 26", "sales": 950 }
+  ],
+  "priceReductionTrend": [
+    { "month": "2025-11", "label": "Nov 25", "pctListingsReduced": 18 },
+    { "month": "2025-12", "label": "Dec 25", "pctListingsReduced": 20 },
+    { "month": "2026-01", "label": "Jan 26", "pctListingsReduced": 22 },
+    { "month": "2026-02", "label": "Feb 26", "pctListingsReduced": 21 },
+    { "month": "2026-03", "label": "Mar 26", "pctListingsReduced": 19 },
+    { "month": "2026-04", "label": "Apr 26", "pctListingsReduced": 18 }
+  ],
+  "inventoryTrend": [
+    { "month": "2025-11", "label": "Nov 2025", "inventory": 980 },
+    { "month": "2025-12", "label": "Dec 2025", "inventory": 920 },
+    { "month": "2026-01", "label": "Jan 2026", "inventory": 1050 },
+    { "month": "2026-02", "label": "Feb 2026", "inventory": 1120 },
+    { "month": "2026-03", "label": "Mar 2026", "inventory": 1180 },
+    { "month": "2026-04", "label": "Apr 2026", "inventory": 1200 }
+  ],
+  "monthsOfInventory": 2.8,
+  "priceTrend12mo": [
+    { "month": "2025-05", "label": "May 25", "medianPrice": 899000 },
+    { "month": "2025-06", "label": "Jun 25", "medianPrice": 910000 },
+    { "month": "2025-07", "label": "Jul 25", "medianPrice": 918000 },
+    { "month": "2025-08", "label": "Aug 25", "medianPrice": 922000 },
+    { "month": "2025-09", "label": "Sep 25", "medianPrice": 928000 },
+    { "month": "2025-10", "label": "Oct 25", "medianPrice": 932000 },
+    { "month": "2025-11", "label": "Nov 25", "medianPrice": 935000 },
+    { "month": "2025-12", "label": "Dec 25", "medianPrice": 938000 },
+    { "month": "2026-01", "label": "Jan 26", "medianPrice": 942000 },
+    { "month": "2026-02", "label": "Feb 26", "medianPrice": 945000 },
+    { "month": "2026-03", "label": "Mar 26", "medianPrice": 948000 },
+    { "month": "2026-04", "label": "Apr 26", "medianPrice": 950000 }
+  ],
+  "pricePerSqftTrend": [
+    { "month": "2025-10", "label": "Oct 25", "pricePerSqft": 568 },
+    { "month": "2025-11", "label": "Nov 25", "pricePerSqft": 572 },
+    { "month": "2025-12", "label": "Dec 25", "pricePerSqft": 576 },
+    { "month": "2026-01", "label": "Jan 26", "pricePerSqft": 578 },
+    { "month": "2026-02", "label": "Feb 26", "pricePerSqft": 581 },
+    { "month": "2026-03", "label": "Mar 26", "pricePerSqft": 583 },
+    { "month": "2026-04", "label": "Apr 26", "pricePerSqft": 585 }
+  ],
+  "hottestNeighborhoods": [
+    { "slug": "la-jolla", "name": "La Jolla" },
+    { "slug": "del-mar", "name": "Del Mar" },
+    { "slug": "coronado", "name": "Coronado" },
+    { "slug": "carmel-valley", "name": "Carmel Valley" },
+    { "slug": "pacific-beach", "name": "Pacific Beach" }
+  ],
+  "coolingNeighborhoods": [
+    { "slug": "mission-valley", "name": "Mission Valley", "priceChangePct": -2.5 },
+    { "slug": "bonita", "name": "Bonita", "priceChangePct": -1.8 },
+    { "slug": "little-italy", "name": "Little Italy", "priceChangePct": -1.2 },
+    { "slug": "pacific-beach", "name": "Pacific Beach", "priceChangePct": -0.9 }
+  ],
+  "bestValueNeighborhoods": [
+    { "slug": "mission-valley", "name": "Mission Valley" },
+    { "slug": "bonita", "name": "Bonita" },
+    { "slug": "little-italy", "name": "Little Italy" },
+    { "slug": "rancho-del-rey", "name": "Rancho del Rey" },
+    { "slug": "eastlake", "name": "Eastlake" }
+  ],
+  "fastestSellingAreas": [
+    { "slug": "la-jolla", "name": "La Jolla", "avgDOM": 18 },
+    { "slug": "coronado", "name": "Coronado", "avgDOM": 21 },
+    { "slug": "del-mar", "name": "Del Mar", "avgDOM": 22 },
+    { "slug": "rancho-santa-fe", "name": "Rancho Santa Fe", "avgDOM": 24 },
+    { "slug": "carmel-valley", "name": "Carmel Valley", "avgDOM": 26 }
+  ],
+  "luxury": {
+    "thresholdPrice": 2000000,
+    "listingCount": 142,
+    "avgDaysOnMarket": 45,
+    "medianPrice": 2850000
+  },
+  "mortgage": {
+    "rate": 6.75,
+    "rateDirection": "stable",
+    "rateNote": "Rates influence buying power; we can help you run scenarios.",
+    "paymentExamples": [
+      { "price": 750000, "payment": 4868 },
+      { "price": 950000, "payment": 6166 },
+      { "price": 1500000, "payment": 9739 }
+    ]
+  },
+  "inventoryPressure": {
+    "label": "Seller's market",
+    "metric": "2.8 mo supply"
+  },
+  "marketTakeaway": "Inventory remains tight in coastal and move-up neighborhoods, with strong demand. Buyers have more room to negotiate in areas with higher supply and price reductions. Rates are a key lever—get pre-approved and be ready to move on the right fit.",
+  "rental": {
+    "medianRent": 2850,
+    "rentGrowthYoy": 3.2,
+    "rentVsBuyRatio": 0.36
+  },
+  "hotNeighborhoods": [
+    { "slug": "la-jolla", "name": "La Jolla", "blurb": "Oceanfront village with coves and strong community." },
+    { "slug": "del-mar", "name": "Del Mar", "blurb": "Upscale coastal village, fairgrounds and beaches." },
+    { "slug": "rancho-santa-fe", "name": "Rancho Santa Fe", "blurb": "Estates, trails, and a quiet private feel." },
+    { "slug": "coronado", "name": "Coronado", "blurb": "Island community with Hotel del and walkable village." }
+  ],
+  "buyerAdvantage": {
+    "score": 4,
+    "label": "Balanced"
+  },
+  "priceChangeWatch": [
+    { "slug": "mission-valley", "name": "Mission Valley", "priceChangePct": -2.5 },
+    { "slug": "bonita", "name": "Bonita", "priceChangePct": -1.8 },
+    { "slug": "little-italy", "name": "Little Italy", "priceChangePct": -1.2 },
+    { "slug": "pacific-beach", "name": "Pacific Beach", "priceChangePct": -0.9 }
+  ],
+  "rosameliaInsight": "Right now we're seeing strong demand in coastal and move-up neighborhoods, with more room to negotiate in areas that had a lot of new inventory. If you're buying, get pre-approved and be ready to move quickly on the right fit. Sellers: pricing right and staging still make a real difference.",
+  "neighborhoodMedianPrices": {
+    "la-jolla": 1850000,
+    "del-mar": 2100000,
+    "rancho-santa-fe": 2450000,
+    "coronado": 1950000,
+    "carlsbad": 1180000,
+    "solana-beach": 1420000,
+    "encinitas": 1280000,
+    "pacific-beach": 985000,
+    "carmel-valley": 1580000,
+    "little-italy": 920000,
+    "mission-valley": 685000,
+    "bonita": 720000,
+    "poway": 945000,
+    "rancho-del-rey": 615000,
+    "otay": 598000,
+    "eastlake": 765000
+  },
+  "neighborhoodHeatMetrics": [
+    { "slug": "la-jolla", "priceGrowth": 0.65, "inventoryPressure": 0.95, "daysOnMarket": 0.92, "priceReductions": 0.3 },
+    { "slug": "del-mar", "priceGrowth": 0.55, "inventoryPressure": 0.9, "daysOnMarket": 0.88, "priceReductions": 0.35 },
+    { "slug": "rancho-santa-fe", "priceGrowth": 0.58, "inventoryPressure": 0.88, "daysOnMarket": 0.82, "priceReductions": 0.28 },
+    { "slug": "coronado", "priceGrowth": 0.52, "inventoryPressure": 0.92, "daysOnMarket": 0.9, "priceReductions": 0.32 },
+    { "slug": "carlsbad", "priceGrowth": 0.5, "inventoryPressure": 0.6, "daysOnMarket": 0.55, "priceReductions": 0.5 },
+    { "slug": "solana-beach", "priceGrowth": 0.52, "inventoryPressure": 0.65, "daysOnMarket": 0.58, "priceReductions": 0.48 },
+    { "slug": "encinitas", "priceGrowth": 0.5, "inventoryPressure": 0.62, "daysOnMarket": 0.52, "priceReductions": 0.52 },
+    { "slug": "pacific-beach", "priceGrowth": 0.35, "inventoryPressure": 0.7, "daysOnMarket": 0.48, "priceReductions": 0.72 },
+    { "slug": "carmel-valley", "priceGrowth": 0.55, "inventoryPressure": 0.85, "daysOnMarket": 0.8, "priceReductions": 0.38 },
+    { "slug": "little-italy", "priceGrowth": 0.38, "inventoryPressure": 0.35, "daysOnMarket": 0.45, "priceReductions": 0.78 },
+    { "slug": "mission-valley", "priceGrowth": 0.2, "inventoryPressure": 0.25, "daysOnMarket": 0.42, "priceReductions": 0.85 },
+    { "slug": "bonita", "priceGrowth": 0.22, "inventoryPressure": 0.3, "daysOnMarket": 0.4, "priceReductions": 0.82 },
+    { "slug": "poway", "priceGrowth": 0.48, "inventoryPressure": 0.5, "daysOnMarket": 0.5, "priceReductions": 0.55 },
+    { "slug": "rancho-del-rey", "priceGrowth": 0.42, "inventoryPressure": 0.28, "daysOnMarket": 0.38, "priceReductions": 0.7 },
+    { "slug": "otay", "priceGrowth": 0.45, "inventoryPressure": 0.32, "daysOnMarket": 0.4, "priceReductions": 0.65 },
+    { "slug": "eastlake", "priceGrowth": 0.4, "inventoryPressure": 0.3, "daysOnMarket": 0.38, "priceReductions": 0.68 }
+  ],
+  "monthlyHighlights": [
+    { "title": "Market Snapshot", "summary": "Median price $950K, 1,200 active listings, 28 days on market. Rates at 6.75%.", "slug": "snapshot" },
+    { "title": "Price Trends", "summary": "Upper tier median; competition strong in entry-level and move-up segments.", "slug": "trends" },
+    { "title": "Luxury Market", "summary": "La Jolla, Del Mar, Rancho Santa Fe, Coronado remain core luxury markets.", "slug": "luxury" },
+    { "title": "First-Time Buyers", "summary": "Pre-approval and neighborhoods that offer value—South Bay, Mission Valley.", "slug": "firsttime" }
+  ]
+}

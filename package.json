@@ -2,21 +2,42 @@
   "name": "sandiegoamazinghomes",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "node scripts/dev-3001.js",
     "build": "next build",
     "start": "next start -p 3001",
+    "lint": "next lint",
+    "format": "prettier --write .",
     "sync": "node scripts/sync-to-main.js",
-    "push": "node scripts/sync-to-main.js"
+    "push": "node scripts/sync-to-main.js",
+    "sync:instagram": "node scripts/sync-instagram.js",
+    "docs:pdf": "node scripts/generate-ai-brief-pdf.js",
+    "docs:pdf:md2pdf": "md-to-pdf docs/AI-Project-Brief-San-Diego-Amazing-Homes.md",
+    "docs:update-report:pdf": "node scripts/generate-update-report-pdf.js",
+    "newsletter:generate": "node scripts/generate-newsletter.js",
+    "market-report:generate": "node scripts/generate-market-report.js",
+    "agent:run": "node scripts/run-agent.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.95.3",
+    "embla-carousel-react": "^8.6.0",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.400.0",
+    "mapbox-gl": "^3.6.0",
     "next": "^14.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.19",
+    "dotenv": "^16.6.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.0",
+    "eslint-config-prettier": "^9.1.0",
+    "md-to-pdf": "^5.2.5",
     "postcss": "^8.4.38",
+    "prettier": "^3.2.0",
     "tailwindcss": "^3.4.4"
   }
 }

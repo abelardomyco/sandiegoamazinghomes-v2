@@ -61,7 +61,7 @@ Created a new Next.js website for **San Diego Amazing Homes** within the same wo
 
 ## Decisions
 
-- **Port 3001** so both sites can run at once (Baja Land uses 3000).
+- **Port 3001** (Baja Land uses 3000; see `.cursor/rules/dev-server.mdc`).
 - **Content-driven:** Copy from `content/`; no hardcoded long text in components.
 - **Partner link** to The Baja Land Company (and Baja site already links to SDAH).
 - **No mock data:** Contact info, Instagram, and partner URL are real.
